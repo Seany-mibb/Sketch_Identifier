@@ -1,0 +1,87 @@
+body{
+    background-size:cover;
+    font-family:cursive;
+}
+
+h1{
+    background-color: cornsilk;
+    line-height: 2;
+}
+
+#show_sketch{
+    float:right;
+    margin-top: 10px;
+    margin-right:10px;
+}
+
+p{
+    background: rgba(255, 255, 255, 0.6);
+    width:30%;
+    font-size:25px;
+}
+
+         
+.btn-grad {
+    background-image: linear-gradient(to right, #77A1D3 0%, #79CBCA  51%, #77A1D3  100%);
+    text-align: center;
+    padding:5px 10px;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;            
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    border-color:rgb(20, 220, 197);
+    display: block;
+    font-size:20px;
+  }
+
+  .btn-grad:hover {
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+  }
+
+           
+  .btn-grad2 {
+    background-image: linear-gradient(to right, #EB3349 0%, #F45C43  51%, #EB3349  100%);
+    margin: 10px;
+    padding: 15px 45px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;            
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    display: block;
+  }
+
+  .btn-grad2:hover {
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+  }
+ 
+ 
+  canvas{
+    border-radius: 20px;
+    border: 5px solid white;
+    margin-top:90px;
+    animation-name: example;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+  }
+
+  @keyframes example{
+    from{
+        box-shadow: 1px 1px 38px rgb(38, 131, 171);
+    }
+
+    50%{
+        box-shadow: 1px 1px 38px gold
+    }
+
+    to{
+        box-shadow: 1px 1px 38px rgb(188, 41, 41);
+    }
+  }
